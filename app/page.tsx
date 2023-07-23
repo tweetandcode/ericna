@@ -26,11 +26,11 @@ export default function Home() {
   return (
     <>
       <header className='py-[27px] border-b-2 max-w-[1400px] mx-auto px-10'>
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
           <h1 className="logo font-bold text-2xl">Breakout</h1>
 
           <nav>
-            <ul className='flex gap-4'>
+            <ul className='flex gap-4 items-center'>
               <li><a href="">Home</a></li>
               <li><a href="">Products</a></li>
               <li><a href="">Discussions</a></li>
@@ -89,7 +89,7 @@ export default function Home() {
             <div className='font-bold border-b-2 border-black'>My Routine</div>
             <div className='font-bold'>Skincare Shelf</div>
           </div>
-          <div>
+          <div className="flex flex-col gap-20">
             <Routine>☀️ Morning</Routine>
             <Routine>🌙 Night</Routine>
           </div>
